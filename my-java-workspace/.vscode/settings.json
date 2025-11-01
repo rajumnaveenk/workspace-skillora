@@ -1,0 +1,8 @@
+{
+    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "java.format.settings.url": "file://${workspaceFolder}/.vscode/formatter.xml",
+    "java.format.settings.profile": "GoogleStyle",
+    "java.import.gradle.enabled": true,
+    "java.import.maven.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "My Java Workspace",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "settings": {
+    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "java.format.settings.url": "file://${workspaceFolder}/.vscode/formatter-settings.json"
+  },
+  "extensions": [
+    "redhat.java",
+    "vscjava.vscode-java-pack",
+    "pivotal.vscode-boot-dev-pack"
+  ],
+  "postCreateCommand": "mvn install",
+  "remoteUser": "vscode"
+}
